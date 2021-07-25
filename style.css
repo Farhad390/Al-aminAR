@@ -182,9 +182,11 @@
 /* Hero section */
 
 .hero {
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: url(img/999.png) no-repeat;
+    /* background: linear-gradient(to right, #161616, #000000); */
     padding: 100px 0px;
+    background-position: center;
+    background-size: cover;
 }
 .hero-container {
     display: flex;
@@ -437,15 +439,22 @@
     border-radius: 4px;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
     transition: all .3s ease-in;
+    padding: 0px 5px;
 
 }
+.services-card img {
+    border-radius: 4px;
+    border: 2px dotted white;
+}
+
 .services-card h2 {
     text-align: center;
+    margin-top: 20px;
 }
 .services-card p {
     text-align: center;
     margin-top: 24px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .services-btn {
     display: flex;
